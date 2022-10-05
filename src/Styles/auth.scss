@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap");
+$imageCardColor: #7d55d9;
+
+.Main {
+  background-image: url("../Assets/Images/background.png");
+  height: 100vh;
+  max-width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    font-family: "Raleway";
+    color: $imageCardColor;
+  }
+
+  input {
+    border: none;
+    border-bottom: 2px solid $imageCardColor;
+    text-align: center;
+  }
+  input:focus-visible {
+    outline: none;
+  }
+
+  button,
+  button:hover,
+  button:active
+  {
+    border: transparent ;
+    background-color: $imageCardColor !important;
+  }
+}
